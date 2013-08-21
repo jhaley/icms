@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<block>
+    <info>
+        <name>Breadcrumb</name>
+        <renderer>block_breadcrumb</renderer>
+        <description>Barra de navegacion</description>
+        <author>Richard Jaldin L.</author>
+        <date>Viernes, 10 de Junio de 2011</date>
+    </info>
+</block>

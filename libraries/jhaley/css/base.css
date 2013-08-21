@@ -1,0 +1,58 @@
+/*
+* Do not remove this notice.
+*
+* Copyright 2011 by Richard Jaldin <ric.jhaley@gmail.com>.
+* Basic CSS styles for the CMS.
+*/
+
+.module-header, .block-header {
+	border:1px solid #CFCFCF;
+	background-color: #CFCFCF;
+	color: #3F3F3F;
+	cursor:move;
+	font-size:13px;
+	font-weight:bold;
+	height: 25px;
+}
+
+.module, .block {
+    border: 1px solid #CFCFCF;
+    margin: 3px;
+    position: relative;
+    display: block;
+}
+
+.element-hover {
+    border: 2px dashed #AAAAAA;
+}
+
+.jhablock {
+    border:1px solid #7F7F7F;
+    padding:0 5px 5px;
+}
+
+.jhablock-header {
+    background-color: #7F7F7F;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	margin:0 -5px 5px;
+	padding:2px;
+	text-align:center;
+}
+
+.popup-menu{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 100;
+}
+
+.popup-menu td{
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.popup-menu td:hover{
+	background-color: #000000;
+}

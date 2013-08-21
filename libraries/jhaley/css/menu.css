@@ -1,0 +1,114 @@
+/*
+* Do not remove this notice.
+*
+* Copyright 2011 by Richard Jaldin <ric.jhaley@gmail.com>.
+* Basic CSS styles for the Administrator Menu.
+*/
+
+#jhamenu, #jhamenu ul, #jhamenu li { 
+	background-color: #7F7F7F;
+	border: 0 none;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+#jhamenu { 
+	position:relative;
+	z-index: 100;
+}
+#jhamenu li {
+	float:left;
+	position:relative;
+	list-style: none;
+	display: inline;
+}
+#jhamenu li a {
+	display:block;
+	white-space: nowrap;
+}
+#jhamenu li li {
+	clear: both;
+}
+#jhamenu li ul {
+	visibility: hidden;
+	position:absolute;
+}
+#jhamenu li li ul {
+	top: 0;
+	left: 0;
+}
+#jhamenu li.hover ul {
+	visibility: visible;
+}
+#jhamenu li.hover ul li ul {
+	visibility: hidden;
+}
+#jhamenu li.hover li.hover ul {
+	visibility: visible;
+	left: 100%; 
+}
+#jhamenu li li { 
+	border: 0;
+}
+
+#jhamenu ul {
+	border: 0.1em solid #ccc;
+	background: #f6f6f6 url(../images/bg-menu.gif) repeat-y left;
+}
+#jhamenu ul li.node {
+	background: transparent url(../images/j_arrow.png) no-repeat right 50%;
+}
+#jhamenu ul li.separator { 
+	background: #DDE1E6 url(../images/bg-menu.gif);
+    height: 1px;
+}
+#jhamenu a, #jhamenu div {
+	padding: 0.35em 1em 0.35em;
+	margin: 0 1px 0 1px;
+	color: #FFFFFF;
+	line-height: 1.6em; vertical-align: middle;
+	font-size: 11px; font-weight: bold; text-decoration: none;
+	cursor: default;
+	background-repeat: no-repeat; background-position: left 50%
+}
+#jhamenu li.disabled a { 
+	color: gray;
+}
+#jhamenu ul a {
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 25px;
+	padding-right: 20px;
+	line-height: 1.2em;
+}
+/* 1 level - hover */
+#jhamenu li.hover a {
+	background-color: #333333;
+	border-left: 1px solid #555555;
+	border-right:1px solid #555555; 
+	margin: 0;
+}
+/* 2 level - normal */
+#jhamenu li.hover li a {
+	background-color: transparent;
+	border: 0 none;
+	margin: 2px;
+}
+/* 2 level - hover */
+#jhamenu li.hover li.hover a { 
+	background-color: #333333;
+	border: 1px solid #555555;
+	margin: 1px;   
+}
+/* 3 level - normal */
+#jhamenu li.hover li.hover li a { 
+	background-color: transparent; 
+	border: 0 none; 
+	margin: 2px;
+}
+/* 3 level - hover */
+#jhamenu li.hover li.hover li a:hover { 
+	background-color: #333333; 
+	border: 1px solid #555555;  
+	margin: 1px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<block>
+    <info>
+        <name>HTML Personalizado</name>
+        <renderer>block_custom</renderer>
+        <description>Crea contenido HTML personalizado.</description>
+        <author>Richard Jaldin L.</author>
+        <date>Miercoles, 02 de Junio de 2011</date>
+    </info>
+</block>

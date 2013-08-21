@@ -1,0 +1,28 @@
+﻿a:link, a:visited {
+color:#f55;
+font-weight:bold;
+}
+
+#header-left {
+background:url(../../images/dark/red/header.jpg) 0 0 no-repeat;
+}
+
+#header-right {
+background:url(../../images/dark/red/header_right.jpg) 0 0 no-repeat;
+}
+
+#header-right_normal {
+background:url(../../images/dark/red/header_right_normal.jpg) 0 0 no-repeat;
+}
+
+#skipbutton a {
+background:url(../../images/dark/red/skip.png) 0 0 no-repeat;
+}
+
+#skipbutton a:hover {
+background:url(../../images/dark/red/skip_hov.png) 0 0 no-repeat;
+}
+
+#topbar{
+background:url(../../images/dark/red/topbar.png) 0 bottom repeat-x;
+}

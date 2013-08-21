@@ -1,0 +1,28 @@
+﻿a:link, a:visited {
+color:#3399ff;
+font-weight:bold;
+}
+
+#header-left {
+background:url(../../images/light/blue/header.jpg) 0 0 no-repeat;
+}
+
+#header-right {
+background:url(../../images/light/blue/header_right.jpg) 0 0 no-repeat;
+}
+
+#header-right_normal {
+background:url(../../images/light/blue/header_right_normal.jpg) 0 0 no-repeat;
+}
+
+#skipbutton a {
+background:url(../../images/light/blue/skip.png) 0 0 no-repeat;
+}
+
+#skipbutton a:hover {
+background:url(../../images/light/blue/skip_hov.png) 0 0 no-repeat;
+}
+
+#topbar{
+background:url(../../images/light/blue/topbar.png) 0 bottom repeat-x;
+}

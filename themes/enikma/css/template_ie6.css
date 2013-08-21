@@ -1,0 +1,28 @@
+﻿#leftcol .moduletable h3,
+#leftcol .moduletable_menu h3,
+#leftcol .moduletable_text h3 {
+padding:5px 10px 7px 0px;
+}
+
+#contentpad1{padding:20px 20px 20px 19px;}
+
+#leftcolpad {
+padding:10px 0px 20px 18px;
+}
+
+
+
+#topmenu {
+line-height:23px;
+}
+
+#topmenu ul {
+padding:0;
+margin:4px 0 0 0;
+}
+
+#topmenu ul li a {
+padding-bottom:3px;
+padding-top:0px;
+}
+

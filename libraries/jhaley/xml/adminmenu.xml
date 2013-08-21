@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<menu id="jhamenu">
+    <elements>
+		<element type="xml">
+			<text>Control Panel</text>
+			<elements>
+				<element href="index.php?elem=mod_base&amp;task=config" class="">
+				    <text>Configuracion Global</text>
+			    </element>
+				<element class="" href="index.php?elem=mod_user&amp;task=admin">
+					<text>Gestor de Usuarios</text></element>
+			</elements>
+		</element>
+		<element type="bd">
+		    <text>Contenidos</text>
+	    </element>
+		<element type="xml">
+		    <text>Extensiones</text>
+		    <elements>
+			    <element href="index.php?elem=mod_base&amp;controller=block" class="">
+			        <text>Gestor de Bloques</text>
+		        </element>
+			    <element class="">
+			        <text>Gestor de Plantillas</text>
+			        <elements>
+			        	<element class="" href="index.php?elem=mod_base&amp;controller=theme">
+			        		<text>Plantillas</text>
+			        	</element>
+			        	<element href="index.php?elem=mod_base&amp;controller=theme&amp;task=personalizeTheme" class="">
+			        		<text>Personalizar</text></element></elements>
+			    </element>
+	        </elements>
+	    </element>
+    </elements>
+</menu>

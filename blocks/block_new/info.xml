@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<block>
+    <info>
+        <name>Noticias</name>
+        <renderer>block_new</renderer>
+        <description>Bloque de Noticias</description>
+        <author>Richard Jaldin L.</author>
+        <date>Miercoles, 01 de Junio de 2011</date>
+    </info>
+</block>

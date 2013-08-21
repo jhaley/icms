@@ -1,0 +1,650 @@
+/**
+ * @copyright	Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved.
+ * @license		GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+
+/* GENERAL */
+
+html, body, form, fieldset, div, span, table, tr, td, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+body.mainbody1, body.mainbody0 {
+font:13px tahoma,Arial,Helvetica,sans-serif; 
+margin:0; 
+padding:0; 
+line-height:150%; }
+
+body.mainbody0 {
+text-align:center; }
+
+
+/* STYLES */
+
+a:link, a:visited{
+text-decoration:none; }
+
+a:hover{
+text-decoration:underline; }
+
+ul{
+margin-left:16px; }
+
+.contentpaneopen ul {
+padding-bottom:12px;}
+
+.sectiontableheader{
+padding:4px 0; }
+
+.pollstableborder .sectiontableentry1{
+background:none; }
+
+h1, h2, h3, h4, h5, h6{
+font-weight:normal; 
+line-height:normal; 
+font-family:Arial,Helvetica,sans-serif;  
+padding:10px 0 2px 0; }
+
+h1{
+font-size:200%; }
+
+h2{
+font-size:165%; 
+font-weight:bold; }
+
+h3{
+font-size:140%; }
+
+h4{
+font-size:120%; }
+
+h5{
+font-size:100%; }
+
+h6{
+font-size:90% }
+
+table.contentpaneopen {
+width:100%; }
+
+.small, .createdate, .modifydate{
+font-size:90%; 
+line-height:normal; 
+font-family:Tahoma,Arial,Helvetica,sans-serif; }
+
+.sectiontablefooter{
+padding-top:5px; }
+
+a.readon{
+padding:2px 22px 4px 0px; }
+
+a img {
+border:none; }
+
+p {
+padding-bottom:12px; }
+
+.contentheading{
+font-size:20px; 
+line-height:normal; 
+text-align: left;
+width: 100%;}
+
+.componentheading{
+padding:4px; 
+margin-bottom:10px; 
+font-weight:bold; }
+
+td.buttonheading{
+padding:0 1px;
+}
+
+
+/* TYPOGRAPHY */
+blockquote {
+	margin:  10px;
+	padding: 10px;
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", Times, serif; }
+
+span.code {
+	margin: 10px 0;
+	padding: 10px 10px 10px 15px;
+	font-family: "courier new",helvetica,"times new roman",serif;
+	font-size: 110%;
+	display:block; }
+
+
+/* JOOMLA LAYOUTS */
+
+.article_column{
+padding-right: 5px; }
+
+.column_separator{
+padding-left: 10px;
+}
+
+span.article_separator {
+margin-top:12px;
+margin-bottom:4px;
+width:100%;
+display:block;
+height:1px;
+}
+
+
+/* TOP MENU CONFIGURATION */
+
+#topmenu{
+height:30px; 
+line-height:20px; 
+font-weight:bold; 
+text-transform:lowercase; 
+font-family:Tahoma,Arial,Helvetica,sans-serif; 
+border-bottom:0px solid #000; 
+margin-right:8px; }
+
+#topmenu ul{
+margin-left:0px; 
+padding:5px 0 0 0; }
+
+#topmenu ul li{
+float:left; 
+list-style:none; 
+padding-left:4px; 
+height:26px; 
+display:block;
+margin-right:2px; }
+
+#topmenu ul.menu li:hover{}
+
+#topmenu a{
+text-decoration:none; 
+padding:1px 15px 7px 11px; 
+display:block; }
+
+
+/* CONTENT AREA MENUS (USING _MENU SUFFIX) */
+
+#content .moduletable_menu ul,
+#rightcol .moduletable_menu ul,
+#leftcol .moduletable_menu ul{
+list-style:none;
+padding:0; 
+margin:0; }
+
+#content .moduletable_menu li,
+#rightcol .moduletable_menu li
+#leftcol .moduletable_menu li{
+padding:0; 
+margin:0; }
+
+#content .moduletable_menu li li, 
+#leftcol .moduletable_menu li li, 
+#rightcol .moduletable_menu li li{
+margin-left:15px; 
+border:none; }
+
+#content .moduletable_menu a:link, #content .moduletable_menu a:visited,
+#leftcol .moduletable_menu a:link, #leftcol .moduletable_menu a:visited,
+#rightcol .moduletable_menu a:link, #rightcol .moduletable_menu a:visited{
+display:block; 
+padding:0px 2px 2px 22px; 
+margin:1px 0; 
+text-decoration:none;
+font-weight:normal; }
+
+#content .moduletable_menu a:hover{
+text-decoration:none; }
+
+
+/* MODULE HEADINGS */
+
+.moduletable h3, .contentheading, 
+.moduletable_menu h3, .moduletable_text h3{
+font-family:Arial,Helvetica,sans-serif; 
+font-size:20px; 
+letter-spacing:-1px; 
+font-weight:normal; 
+text-transform:lowercase; 
+padding-bottom:10px; }
+
+#leftcol .moduletable h3, 
+#leftcol .moduletable_menu h3, 
+#leftcol .moduletable_text h3{
+width:220px; 
+margin:0 0 10px -10px; 
+padding:6px 10px 10px 0px; 
+text-align:right; 
+height:20px;}
+
+#rightcol .moduletable h3, 
+#rightcol .moduletable_text h3, 
+#rightcol .moduletable_menu h3{
+padding:6px 6px 6px 10px; 
+margin-bottom:5px; 
+line-height:normal; 
+margin-right:-10px; 
+overflow:hidden; }
+
+
+/* TEMPLATE STRUCTURE */
+
+#bigcontainer0, #bigcontainer1{
+padding-left:20px; }
+
+#bigcontainer0{
+text-align:left; 
+margin:0 auto; 
+padding-left:20px; }
+
+#bottomcorner0, #bottomcorner1{
+margin-bottom:20px; }
+
+#bottomcorner0{
+margin:0 auto; }
+
+#container1{
+margin-left:0px; }
+
+#container0{
+margin-left:0px; }
+
+span#logo{
+position:absolute; 
+display:block; 
+left:0px; 
+top:0px; 
+width:109px; 
+height:108px; 
+background:transparent; }
+
+#skipbutton{
+height:26px; 
+width:30px; 
+float:left; 
+padding:0; 
+display:block; 
+margin-right:2px; 
+margin-top:4px; }
+
+#topbar{}
+
+#skipbutton a{
+height:26px; 
+width:30px; 
+padding:0; 
+margin:0; }
+
+#colorswitch{
+height:20px; 
+width:110px; 
+text-align:right; 
+float:right; 
+padding:0; 
+margin:-2px 2px 0 0; }
+
+#colorswitch a{
+float:left; 
+width:20px; 
+background:none; 
+padding:0; 
+margin:0 1px 0 0; }
+
+
+/* HEADER */
+
+#header{
+width:766px; 
+height:180px; 
+position:relative; }
+
+#header-left{
+position:absolute; left:0; top:0; 
+height:180px; 
+width:558px;}
+
+#header-right, #header-right_normal{
+position:absolute; left:508px; top:0; 
+width:258px; 
+height:180px;
+text-indent:0; 
+overflow:hidden; }
+
+#header-right{
+font-size:90%; 
+line-height:normal; }
+
+#header-right .moduletable h3{
+margin:0; 
+padding:0 0 5px 0;}
+
+#header-right-padding{
+padding:5px 15px 10px 15px; }
+
+
+/* PATHWAY/BREADCRUMBS */
+
+#pathway{
+width:758px; 
+font-weight:bold; 
+height:24px!important; 
+overflow:hidden; 
+line-height:14px; }
+
+#pathway a:link, #pathway a:visited{
+font-weight:normal; }
+
+#pathwaypad{
+padding:4px 4px 4px 12px }
+
+
+/* LEFT & RIGHT COLUMNS */
+
+#rightcol{
+float:right; 
+padding-top:10px; 
+overflow:hidden; }
+
+#rightcolpad{
+padding:0px 0px 20px 0px; }
+
+#leftcol{
+width:240px; 
+float:right; 
+position:relative; right:8px; }
+
+#leftcolpad{
+padding:10px 20px 20px 10px; 
+width:230px; }
+
+#rightcol .moduletable, 
+#leftcol .moduletable, 
+#rightcol .moduletable_text, 
+#leftcol .moduletable_text, 
+#rightcol .moduletable_menu, 
+#leftcol .moduletable_menu{
+margin-bottom:20px; 
+padding-right:10px; }
+
+
+/* LOGON BOX CHROME (LEFTCOL) */
+#leftcol #logon_top{
+margin-left:-10px; height:16px; }
+
+#leftcol #userlogon{
+padding:0 10px 0 20px; margin-left:-10px; }
+
+#leftcol #logon_bottom{
+margin-left:-10px; height:16px; }
+
+#leftcol #userlogon .inputbox{
+padding:2px; 
+width:180px; 
+font-weight:bold; }
+
+#leftcol #userlogon .button, .pollbutton, .button{
+padding:2px 8px; 
+width:auto; 
+margin:5px 0; }
+
+
+/* USER1 and USER2 MODULES */
+
+#usermodules_container{
+position:relative; 
+margin-bottom:15px; 
+padding-bottom:15px; 
+overflow:hidden; 
+height:auto!important; 
+height:100%; }
+
+#user1 .moduletable h3, #user2 .moduletable h3{padding-top:0;}
+
+
+/* CONTENT */
+
+#content{
+width:766px; }
+
+#contentpad1{
+padding:20px 20px 20px 20px; 
+overflow:hidden; }
+
+#contentpad0{
+width: 717px;
+padding:20px 28px 20px 20px; 
+overflow:hidden; }
+
+#content_bot1, #content_bot0{
+height:28px; 
+width:766px;  }
+
+
+/* USER4, USER5 and SYNDICATE MODULES */
+
+#bottom_container0, #bottom_container1 {
+margin:0px 0 0 0px; 
+height:100%; 
+padding-bottom:10px; 
+position:relative; 
+height:auto!important; 
+height:100%; 
+overflow:hidden; }
+
+.user_padding{
+padding:10px 15px 10px 15px; }
+
+#user4{
+float:left; 
+width:430px; 
+margin:10px 0 0 0px;
+overflow:hidden; }
+
+#user5{
+float:left; 
+width:248px; 
+margin:10px 10px 0 0px;
+overflow:hidden; }
+
+#syndicate, #syndicate_right{
+float:left; 
+margin:10px 0 20px 6px;
+overflow:hidden; }
+
+#syndicate_right{
+float:right; }
+
+#user4 .moduletable, #user5 .moduletable, #syndicate .moduletable,
+#user4 .moduletable_menu, #user5 .moduletable_menu, #syndicate .moduletable_menu,
+#user4 .moduletable_text, #user5 .moduletable_text, #syndicate .moduletable_text{
+padding-bottom:20px; }
+
+#user4 .moduletable h3, #user5 .moduletable h3, #syndicate .moduletable h3{
+padding-bottom:5px; 
+margin-bottom:5px; 
+padding-top:0; }
+#user5 .moduletable h3{
+padding-top:10px; }
+
+
+/* FOOTER */
+
+#footer{
+width:100%; 
+text-align:center; }
+
+
+/* COLOR SWITCH BUTTONS */
+
+.style_button_orange, 
+.style_button_blue, 
+.style_button_green, 
+.style_button_pink, 
+.style_button_red{
+width:20px; 
+height:20px; 
+display:block
+}
+
+span.pl_orange, span.pl_blue, span.pl_green, span.pl_pink, span.pl_red{left:0; top:0; position:absolute; visibility:hidden; }
+
+
+/* sIFR */
+
+.sIFR-flash{
+visibility:visible !important; 
+margin:0; }
+
+.sIFR-replaced{
+visibility:visible !important; }
+
+span.sIFR-alternate{
+position:absolute; 
+left:0; 
+top:0; 
+width:0; 
+height:0; 
+display:block; 
+overflow:hidden; }
+
+#sitetitle_div{
+position:absolute; top:85px; left:27px; 
+width:670px; }
+
+#sitetitle_shadow_div{
+position:absolute; top:87px; left:29px; 
+width:670px; }
+
+#siteslogan_div_future, #siteslogan_div_industrial, #siteslogan_div_funky{
+position:absolute; top:145px; left:27px; }
+
+#siteslogan_div_industrial{
+left:34px
+}
+
+.sitetitle, .sitetitle_shadow{
+font-size:50px; 
+line-height:normal; 
+letter-spacing:-2px; 
+color:white; 
+font-family:Tahoma,Arial,Helvetica,sans-serif; }
+
+.sitetitle_shadow{
+color:black; }
+
+.siteslogan{
+font-size:14px; 
+letter-spacing:0px; 
+color:white; 
+font-family:Tahoma,Arial,Helvetica,sans-serif; }
+
+.designer{
+color:#666; }
+
+.designer a:link, .designer a:visited{
+color:#666; font-size:0.8em; text-decoration:none; }
+
+.designer a:hover{
+color:#666; }
+
+.sIFR-hasFlash .sitetitle{
+visibility:hidden; 
+font-size:85px; 
+letter-spacing:-2px; }
+
+.sIFR-hasFlash .sitetitle_shadow{
+visibility:hidden; 
+font-size:85px; 
+letter-spacing:-2px; }
+
+.sIFR-hasFlash .siteslogan{
+visibility:hidden; 
+font-size:20px; 
+letter-spacing:0px; }
+
+.clearfloat{
+clear:both; 
+height:0; 
+font-size:1px; 
+line-height:0px; }
+
+/* Frontend Editing*/
+
+legend {
+	margin: 0;
+	padding: 0 10px;
+	font-weight:bold;
+	font-size:110%;
+}
+
+td.key {
+	border-bottom:1px solid #888;
+}
+
+
+/* JOOMLA SYSTEM STUFF */
+
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px; 
+	color:#333; }
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+	color:#000; }
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+	color:#444; }
+
+/* System Standard Messages */
+#system-message { margin:0 0 20px 0; padding:0;}
+dd.message message fade ul {padding:0;margin:0;}
+
+dt.message { padding:5px;font-weight:bold; color:#fff; background:#222; }
+
+#system-message dd.message ul { background: #C3D2E5 url(../../system/images/notice-info.png) 4px center no-repeat; padding:15px 15px 15px 45px; margin:0; color:#000; margin-left:-40px;}
+#system-message dd.message li { padding:0; margin:0; list-style:none; }
+
+/* System Error Messages */
+#system-message dd.error ul { color: #c00; background: #E6C0C0 url(../../system/images/notice-alert.png) 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B;
+padding:15px 15px 15px 45px; margin:0; color:#000; margin-left:-40px;}
+
+/* System Notice Messages */
+#system-message dd.notice ul { color: #c00; background: #EFE7B8 url(../../system/images/notice-note.png) 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;
+padding:15px 15px 15px 45px; margin:0; color:#000; margin-left:-40px;}
+
+.art-Header-jpeg {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    height: 179px;
+    width: 758px;
+}
+
+.breadcrumb-separator {
+    background-image: url("../images/bc-sep.jpg");
+	display: inline-block;
+	height: 8px;
+	margin-left: 3px;
+	margin-right: 3px;
+	width: 10px;
+}

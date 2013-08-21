@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<block>
+    <info>
+        <name>Banner</name>
+        <renderer>block_banner</renderer>
+        <description>Los banners tiene un efecto de slider para mostrar todas las imagenes</description>
+        <author>Richard Jaldin L.</author>
+        <date>Miercoles, 02 de Junio de 2011</date>
+    </info>
+</block>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<block>
+    <info>
+        <name>Login</name>
+        <renderer>block_login</renderer>
+        <description>Bloque de Inicio de Sesion</description>
+        <author>Richard Jaldin L.</author>
+        <date>Lunes, 04 de Abril de 2011</date>
+    </info>
+</block>

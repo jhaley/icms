@@ -1,0 +1,126 @@
+/**
+ * @copyrightCopyright (C) 2005 - 2007 Open Source Matters. All rights reserved.
+ * @licenseGNU/GPL,see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant
+ * to the GNU General Public License,and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+body.mainbody1,body.mainbody0{background:#f1f1f1 url(../../images/light/bodybg.png) 0 0 repeat-x;}
+
+.sectiontableheader{border-bottom:2px solid #555}
+.sectiontableentry1{background:#6f6f6f}
+
+h1,h2,h3,h4,h5,h6{color:#333}
+
+.small,.createdate,.modifydate{color:#888}
+
+.sectiontablefooter{color:#fff}
+
+a.readon{background:url(../../images/light/readon.png) 100% 2px no-repeat}
+
+.column_separator{border-left:1px dotted #555}
+
+span.article_separator{border-top:1px dotted #555}
+
+#leftcol #logon_top{background:url(../../images/light/left_modlogon_top.png) 0 0 no-repeat}
+#leftcol #userlogon{background:#d9d9d9 url(../../images/light/logon_bg.png) 0 0 repeat-y}
+#leftcol #logon_bottom{background:url(../../images/light/left_modlogon_bottom.png) 0 0 no-repeat}
+#leftcol #userlogon .inputbox{background:#fff;border:1px solid #999}
+#leftcol #userlogon .button,.pollbutton,.button{background:url(../../images/light/button_bg.png) 0 0 repeat-x;color:#333;border:1px solid #333}
+
+#content .moduletable_menu li,
+#rightcol .moduletable_menu li
+#leftcol .moduletable_menu li{border-bottom:1px solid #ddd;background:url(../../images/light/menuitem.png) 0 0 no-repeat}
+
+#leftcol .moduletable_menu li{background:url(../../images/light/leftcol_menuitem.png) 0 0 no-repeat;border-bottom:1px solid #ccc}
+#rightcol .moduletable_menu li{background:url(../../images/light/rightcol_menuitem.png) 0 0 no-repeat;border-bottom:1px solid #aaa}
+
+#content .moduletable_menu a:link,#content .moduletable_menu a:visited,
+#leftcol .moduletable_menu a:link,#leftcol .moduletable_menu a:visited,
+#rightcol .moduletable_menu a:link,#rightcol .moduletable_menu a:visited{color:#555!important}
+
+#content .moduletable_menu a:hover{background:#f1f1f1 url(../../images/light/menuitem_hov.png) 0 0 no-repeat;color:#444!important}
+#leftcol .moduletable_menu a:hover{background:#f5f5f5 url(../../images/light/leftcol_menuitem_hov.png) 0 0 no-repeat;color:#000!important}
+#rightcol .moduletable_menu a:hover{background:#c1c1c1 url(../../images/light/rightcol_menuitem_hov.png) 0 0 no-repeat;color:#000!important}
+
+#content .moduletable_menu .active{background:url(../../images/light/menuitem_active.png) 0 0 no-repeat}
+#leftcol .moduletable_menu .active{background:url(../../images/light/leftcol_menuitem_active.png) 0 0 no-repeat}
+#rightcol .moduletable_menu .active{background:url(../../images/light/rightcol_menu_active.png) 0 0 no-repeat}
+
+#leftcol .moduletable h3,
+#leftcol .moduletable_menu h3,
+#leftcol .moduletable_text h3{background:#d9d9d9 url(../../images/light/leftcol_module_h3.png) 100% 0 no-repeat;color:#777}
+
+.contentheading{color:#333}
+
+.componentheading{background:#555;color:#fff}
+
+#topmenu{border-bottom:0px solid #000;background:url(../../images/light/menubar_bg.png) 0 0 repeat-x}
+
+#topmenu ul li{background:url(../../images/light/topmenu_l.png) 0 0 no-repeat}
+
+#topmenu a{color:#777;background:url(../../images/light/topmenu_r.png) 100% 0 no-repeat}
+
+#topmenu .active a{background:url(../../images/light/topmenu_r_active.png) 100% 0 no-repeat;color:#fff!important}
+
+#topmenu a#active_menu-nav, #topmenu a#active_menu{color:#000}
+
+#topmenu ul li.active{background:url(../../images/light/topmenu_l_active.png) 0 0 no-repeat}
+
+#topmenu a:hover{color:#000}
+
+#subnav{background:#000}
+
+#bigcontainer0,#bigcontainer1{background:url(../../images/light/bottom_corner.png) bottom right no-repeat;border-left:8px solid #818181}
+
+#bottomcorner0,#bottomcorner1{background:#ccc url(../../images/light/container_bg.png) 100% 0 repeat-y}
+
+#container1{background:url(../../images/light/content_mid.png) 0 0 repeat-y}
+#container0{background:url(../../images/light/content_mid_noleft.png) 0 0 repeat-y}
+
+#rightcol .moduletable h3,
+#rightcol .moduletable_text h3,
+#rightcol .moduletable_menu h3{background:#818181 url(../../images/light/right_module_h3.png) 0 0 no-repeat;color:#fff}
+
+#header-left{background:url(../../images/light/header.jpg) 0 0 no-repeat}
+
+#header-right,#header-right_normal{background:url(../../images/light/header_right.jpg) 0 0 no-repeat}
+
+#header-right_normal{background:url(../../images/light/header_right_normal.jpg) 0 0 no-repeat}
+
+#header-right .moduletable h3{color:#555}
+
+#pathway{background:#555;color:#fff}
+
+#usermodules_container{border-bottom:1px dotted #555}
+
+#content_bot1,#content_bot0{background:url(../../images/light/content_bot.png) 0 0 no-repeat}
+#content_bot0{background:url(../../images/light/content_bot_noleft.png) 0 0 no-repeat}
+
+#user4{background:#f1f1f1}
+#syndicate,#syndicate_right{background:#818181}
+
+#user4 .moduletable h3,#user5 .moduletable h3,#syndicate .moduletable h3{border-bottom:1px dotted #444}
+
+#footer{background:#f1f1f1}
+
+.style_button_orange{background:url(../../images/light/switch_orange.png) 0 0 no-repeat}
+.style_button_blue{background:url(../../images/light/switch_blue.png) 0 0 no-repeat}
+.style_button_green{background:url(../../images/light/switch_green.png) 0 0 no-repeat}
+.style_button_pink{background:url(../../images/light/switch_pink.png) 0 0 no-repeat}
+.style_button_red{background:url(../../images/light/switch_red.png) 0 0 no-repeat}
+
+span.pl_orange{background-image:url(../../images/light/orange/skip_hov.png)}
+span.pl_blue{background-image:url(../../images/light/blue/skip_hov.png)}
+span.pl_green{background-image:url(../../images/light/green/skip_hov.png)}
+span.pl_pink{background-image:url(../../images/light/pink/skip_hov.png)}
+span.pl_red{background-image:url(../../images/light/red/skip_hov.png)}
+
+legend { color:#333; }
+blockquote { background:#eee;}
+span.code {
+	border-left:5px dotted #777;
+	background:#ccc;
+	color:#000000; }
